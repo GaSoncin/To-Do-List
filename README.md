@@ -1,8 +1,8 @@
-📝 To-Do List - Tabula 
-Esta aplicação permite que os usuários gerenciem suas tarefas diárias com funcionalidades de CRUD (Criar, Ler, Atualizar e Deletar) utilizando PHP e MySQL no backend, e HTML, CSS, JavaScript, e Bootstrap no frontend.
+📝 To-Do List - Tabula <br>
+Esta aplicação permite que os usuários gerenciem suas tarefas diárias com funcionalidades de CRUD (Criar, Ler, Atualizar e Deletar) utilizando PHP e MySQL no backend, e HTML, CSS, JavaScript, e Bootstrap no frontend. <br>
 
-🛠 Tecnologias
-HTML, CSS, JavaScript, PHP, MySQL e Bootstrap
+🛠 Tecnologias <br>
+HTML, CSS, JavaScript, PHP, MySQL e Bootstrap <br>
 
 🚀 Como Rodar o Projeto
 Clone o repositório: git clone <link-do-repositorio>
