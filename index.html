@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List - Tabula</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-4">Lista de Tarefas</h1>
+      <form id="task-form" class="mb-4">
+        <div class="mb-3">
+          <label for="titulo" class="form-label">Título</label>
+          <input
+            type="text"
+            class="form-control"
+            id="titulo"
+            placeholder="Digite o título da tarefa"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="descricao" class="form-label">Descrição</label>
+          <textarea
+            class="form-control"
+            id="descricao"
+            rows="3"
+            placeholder="Digite a descrição (opcional)"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
+      </form>
+      <ul id="task-list" class="list-group"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
