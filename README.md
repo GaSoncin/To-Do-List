@@ -5,7 +5,7 @@ Esta aplicação permite que os usuários gerenciem suas tarefas diárias com fu
 HTML, CSS, JavaScript, PHP, MySQL e Bootstrap <br>
 
 🚀 Como Rodar o Projeto <br>
-Clone o repositório: git clone <link-do-repositorio> <br>
+Clone o repositório: git clone <link-do-repositorio>
 Importe o arquivo tarefas.sql no MySQL. <br>
 Ajuste as credenciais no arquivo conectar.php: $servername = "localhost"; $username = "root"; $password = ""; $dbname = "tabula_todolist"; <br>
 Coloque os arquivos na pasta htdocs (XAMPP) ou www (WAMP). <br>
